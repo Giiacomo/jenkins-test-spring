@@ -7,18 +7,22 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.4.1</version>
+		<version>2.7.18</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>com.advancia.stage</groupId>
 	<artifactId>jenkins-test-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>jenkins-test-demo</name>
 	<description>Demo project for Spring Boot</description>
+
 	<properties>
-		<maven.compiler.target>1.8</maven.compiler.target>
+		<java.version>1.8</java.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
+
 	<url />
 	<licenses>
 		<license />
@@ -32,6 +36,7 @@
 		<tag />
 		<url />
 	</scm>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -41,7 +46,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
